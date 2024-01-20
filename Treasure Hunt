@@ -1,0 +1,19 @@
+print("Welcome to treasure island")
+print("Your mission is to find the treasure")
+road = input('You are at a cross road.Where do you want to go? Type "Left" or "Right"').lower()
+if road=="left":
+    river=input("swim or wait?").lower()
+    if river=="wait":
+        door = input("Which door?").lower()
+        if door=="red":
+            print("Game over")
+        elif door=="blue":
+            print("Game over")
+        elif door=="yellow":
+            print("You win")
+        else:
+            print("Wrong door")
+    else:
+        print("Game over")
+else:
+    print("Game over")
